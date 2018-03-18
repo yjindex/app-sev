@@ -8,10 +8,10 @@
 ## install dependencies
 本伟是真的皮
 
-# serve with hot reload at localhost:8080
-npm run dev
+# 阿挣是真的傻子
+阿黄是广大科技手段哈卡
 
-# build for production with minification
-npm run build
+# 阿挣是真的傻子
+萨芬社保卡基本可能
 
 # build for production and view the bundle analyzer repor

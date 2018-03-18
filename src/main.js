@@ -5,9 +5,9 @@ import { Button } from "mint-ui";
 import App from './App'
 import router from './router'
 
-Vue.component(Button.name, Button)
+// Vue.component(Button.name, Button)
 Vue.config.productionTip = false
-    // Vue.use(Botton)
+Vue.use(Botton)
 
 /* eslint-disable no-new */
 new Vue({
