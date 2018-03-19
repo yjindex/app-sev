@@ -1,18 +1,20 @@
 <template>
   <div id="app">
-    
-  <mt-button type="default">default</mt-button>
-  <mt-button type="primary">primary</mt-button>
-  <mt-button type="danger">danger</mt-button>
-
-    <img src="./assets/logo.png">
-    <router-view/>
+  <mt-header fixed title="黑马程序员·Vue项目"></mt-header>
+  <transition>
+    <router-view></router-view>
+  </transition>
+  <v-footer> </v-footer> 
   </div>
 </template>
 
 <script>
+import footer from '@/components/footer'
 export default {
-  name: 'App'
+  name: 'App',
+  components:{
+    "v-footer":footer
+  }
 }
 </script>
 
